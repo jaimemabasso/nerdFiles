@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+footer{
+    background: #222;
+}
+footer h2{
+  color: #219de0;
+  padding-bottom: 20px;
+}
+footer ul, .icons ul{
+  list-style: none;
+}
+li{
+  padding: 5px;
+}
+input[type="text"]{
+  padding: 5px;
+  border-radius: 5px;
+  background: initial;
+  width: 80%;
+  color: #fff;
+  border: 1px solid #fff;
+}
+footer input[type="submit"]{
+  background: #219de0;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 0;
+  margin: 5px 0;
+  width: 30%;
+  cursor: pointer;
+}
+.footer-container{
+  display: grid;
+  grid-template-columns: repeat(11,1fr);
+  color: #fff;
+  height: 250px;
+  width: 90%;
+  margin: 0 auto;
+}
+.footer-container>div{
+  padding: 40px 0 0 10px;
+}
+.f1{
+  grid-row: 1;
+  grid-column: 1/4;
+}
+.f2{
+  grid-row: 1;
+  grid-column: 4/8;
+}
+.f3{
+  grid-row: 1;
+  grid-column: 8/12;
+}
+.f4{
+  color: #fff;
+  background: #000;
+  display: flex;
+  padding: 5px 150px;
+}
+.f4 .text{
+    width: 50%;
+}
+.f4 .icons{
+  width: 50%;
+  text-align: right;
+}
+.fab{
+  text-align: center;
+  width:  30px;
+  height:  30px;
+  line-height: 30px;
+  font-size: 30px;
+  color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.fa-facebook-f:hover{
+  color: #3b7798;
+
+}
+.fa-twitter:hover{
+  color: #00aced;
+}
+.fa-youtube:hover{
+  color: #bb0000;
+}
+.fa-linkedin:hover{
+  color: #007bb6;
+}
+.f4 ul li{
+  display: inline;
+}
+.f2 ul, .f2 h2{
+  padding-left: 85px;
+}
