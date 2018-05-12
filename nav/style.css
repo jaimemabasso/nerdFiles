@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav{
+  background: #222;
+  height: 40px;
+  text-align: right;
+}
+ul{
+  display: flex;
+  float: left;
+  width: 500px;
+}
+ul li{
+  list-style: none;
+  width: 100px;
+}
+a{
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  line-height: 20px;
+  color: #fff;
+  background: red;
+}
+ul li ul{
+  display:
+}

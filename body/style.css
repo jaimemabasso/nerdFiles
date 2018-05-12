@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body-container{
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  /*grid-gap: 1em;*/
+}
+.body-container>div{
+  background: #222;
+  height: 400px;
+}
+.content{
+  grid-column: 1/9;
+  grid-row: ;
+  margin: 10px 5px 5px 10px;
+}
+.sidebar{
+  grid-column: 9/12;
+  grid-row: ;
+  margin: 10px 5px 5px 10px;
+}
