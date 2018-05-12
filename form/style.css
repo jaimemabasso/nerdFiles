@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+form{
+  padding-top: 100px;
+  width: 90%;
+  margin: 0 auto;
+  text-align:center;
+}
+input[type="text"], input[type="email"], textarea{
+  width: 100%;
+  background: initial;
+  border: none;
+  border: 1px solid #000;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 15px;
+}
+input[type="submit"]{
+  width: 30%;
+  padding: 10px;
+  background: initial;
+  border: none;
+  border: 1px solid #000;
+  font-size: 15px;
+}
+.icons{
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  transform: translate(-50%,0%);
+  right: 35%;
+  font-size: 25px;
+}
+.fab{
+  padding-left: 25px;
+}
+@media (min-width:960px) {
+
+  form{
+    width: 60%;
+  }
+  input[type="text"], input[type="email"]{
+    width: 45%;
+  }
+  textarea{
+    width:;
+  }
+  input[type="submit"]{
+    margin-top: 25px;
+  }
+  .icons{
+    text-align: center;
+    padding-bottom: 200px;
+  }/*
+  input[type="text"]{
+    margin-right: 2%;
+  }*/
+}
