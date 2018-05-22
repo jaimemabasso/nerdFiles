@@ -1,0 +1,60 @@
+body{
+width: 100%;
+height: 100%;
+margin: 0;
+padding: 0;
+}
+.container{
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+.btn-group{
+  width: 340px;
+  height: 40px;
+  padding: 10px 40px;
+  line-height: 40px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  z-index: 1;
+}
+.btn-one{
+  float: left;
+  line-height: 40px;
+  color: #fff;
+  text-decoration: none;
+  transition: 1s;
+}
+.btn-two{
+  float: right;
+  text-decoration: none;
+  line-height: 40px;
+  color: #a6afbf;
+}
+.btn-bg{
+  background: #2abb9b;
+  height: 60px;
+  width: 170px;
+  position: absolute;
+  top: 0;
+  margin-left: -208px;
+  z-index: -1;
+  transition: 1s;
+  border-radius: 5px;
+}
+span:hover + .btn-bg{
+  width: 252px;
+  margin-left: -40px;
+}
+.btn-two > span:hover{
+  color: #fff;
+}
+.btn-two:hover ~ .btn-one{
+  color: #a6afbf;
+}
+span{
+  padding: 10px 0;
+  transition: 1s;
+}
